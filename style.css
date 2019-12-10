@@ -42,10 +42,16 @@ body{
 }
 main{
 grid-area: main;
+background-color: #F2BC57;
 }
 header{
   grid-area: header;
+  background-color: #F29D52;
 }
 footer{
   grid-area: footer;
+  background-color: #F29D52
+}
+nav{
+  background-color: #516D73;
 }
