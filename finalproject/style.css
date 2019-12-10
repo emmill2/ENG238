@@ -33,7 +33,7 @@ nav li a:hover {
 body{
   background-color:#6E6D9B;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: .5fr 5fr .5fr;
   grid-template-areas:
   "... header ..."
