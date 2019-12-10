@@ -35,8 +35,9 @@ body{
   background-color: #A5B9D1;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: .5fr 5fr .5fr;
+  grid-template-rows: .8fr .5fr 10fr 1fr;
   grid-template-areas:
+  "title title title"
   "header header header"
   "... main ..."
   "... footer ...";
@@ -44,10 +45,16 @@ body{
 main{
 grid-area: main;
 background-color: #C5DCF9;
+padding: .5em;
 }
 header{
   grid-area: header;
   background-color: #A8B3E3;
+}
+header.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 footer{
   grid-area: footer;
@@ -57,5 +64,6 @@ nav{
   background-color: #516D73;
 }
 h1{
+  grid-area: title;
   margin-top:0;
 }
