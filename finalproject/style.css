@@ -60,3 +60,9 @@ h1{
   grid-area: title;
   margin-top:0;
 }
+img{
+  margin-left: 1em;
+}
+p{
+  font-size: 20px;
+}
