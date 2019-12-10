@@ -23,6 +23,29 @@ nav li a {
   text-decoration: none;
   display: inline;
   }
-  .profilepic {
-    position: absolute;
+  .container {
+    width: 200px;
+    height: 120px;
+}
+  .container img {
+      max-width: 75%;
+      height: auto;
   }
+body{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: .5fr 5fr .5fr;
+  grid-template-areas:
+  "header header header"
+  "... main ..."
+  "footer footer footer";
+}
+main{
+grid-area: main;
+}
+header{
+  grid-area: header;
+}
+footer{
+  grid-area: footer;
+}
