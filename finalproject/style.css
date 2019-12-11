@@ -22,7 +22,17 @@ nav li a {
 nav li a:hover {
   background-color: #304159;
 }
-
+  .container {
+    width: 400px;
+    height: 240px;
+    margin-left: 4em;
+    margin-right: -5em;
+    padding:0px
+}
+  .container img {
+      max-width: 75%;
+      height: auto;
+  }
 body{
   margin: 0;
   background-color: #A5B9D1;
@@ -60,9 +70,27 @@ h1{
   grid-area: title;
   margin-top:0;
 }
-img{
-  margin-left: 1em;
+
+ul{
+list-style: none;
+text-align: left;
+  margin-left: 0px;
+  margin-right: 75px;
+  padding:0
+}
+li{
+  font-size: 20px;
+}
+.slides{
+  text-align: center;
 }
 p{
   font-size: 20px;
+}
+img.clown {
+  padding-left: 35px;
+  margin-left: 3.5em;
+}
+iframe.roger{
+  margin-left: 8.5em;
 }
